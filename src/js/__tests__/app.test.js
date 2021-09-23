@@ -35,10 +35,5 @@ test('check the wounded with toBe', () => {
     { name: 'мечник', health: 10 },
   ];
 
-<<<<<<< HEAD
   expect(JSON.stringify(result)).toBe(JSON.stringify(expected));
-=======
-expect(JSON.stringify(result)).toBe(JSON.stringify(expected));
-  
->>>>>>> b483fe946200eb1b5d5aff944c186f85a0c607bf
 });
